@@ -1,6 +1,6 @@
 !not-ready-for-release!
 
-####  Version Number
+#### Version Number
 ${version-number}
 
 #### New Features
