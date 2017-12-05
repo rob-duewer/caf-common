@@ -13,5 +13,8 @@ ${version-number}
  - [CAF-3517](https://jira.autonomy.com/browse/CAF-3517): Organization name change  
     The name of the organization used in the Copyright statements has changed.  Given that the `check-license-headers` execution enforces that the Copyright statements are correct, this might be considered to constitute a breaking change, since the copyright statements of projects which use this project as a parent may have to be changed.
 
+ - Removal of `container-cert-script` project  
+    The certificate installation scripts have been removed from this project.  They are now pre-installed in the openSUSE-based Java and Tomcat base images.
+
 #### Known Issues
  - None
